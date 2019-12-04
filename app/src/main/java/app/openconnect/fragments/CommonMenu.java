@@ -50,10 +50,10 @@ public class CommonMenu {
 			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
 		menu.add(Menu.NONE, MENU_SECURID, Menu.NONE, R.string.securid_info)
 			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
-		menu.add(Menu.NONE, MENU_REPORT_PROBLEM, Menu.NONE, R.string.report_problem)
-			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
-		menu.add(Menu.NONE, MENU_ABOUT, Menu.NONE, R.string.about_openconnect)
-			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+//		menu.add(Menu.NONE, MENU_REPORT_PROBLEM, Menu.NONE, R.string.report_problem)
+//			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
+//		menu.add(Menu.NONE, MENU_ABOUT, Menu.NONE, R.string.about_openconnect)
+//			.setShowAsAction(MenuItem.SHOW_AS_ACTION_NEVER);
 	}
 
 	private boolean startFragActivity(String fragName) {

@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
 
 		mTabList.add(new TabContainer(0, R.string.vpn_list_title, new VPNProfileList()));
 		mTabList.add(new TabContainer(1, R.string.log, new LogFragment()));
-		mTabList.add(new TabContainer(2, R.string.faq, new FaqFragment()));
+		//mTabList.add(new TabContainer(2, R.string.faq, new FaqFragment()));
 
 		mConnectionTab = mTabList.get(0);
 
